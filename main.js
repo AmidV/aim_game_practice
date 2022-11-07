@@ -87,3 +87,20 @@ function getColor() {
     const index = Math.floor(Math.random() * colors.length);
     return colors[index];
 }
+
+// AUTOMATED feature to earn max score
+// To start you will need to call getMaxScore() function manualy in Console in Inspect window
+
+// ------------- code start ----------------
+// function getMaxScore() {
+//     function start() {
+//         const circle = document.querySelector(".circle"); 
+//         if(circle) {
+//             circle.click();
+//         }
+//     }
+// -=COMMENT_=-  Change the second argument in setInterval for adjusting clicking speed
+//     setInterval(start, 45)
+// }
+
+// ------------- code end ----------------
